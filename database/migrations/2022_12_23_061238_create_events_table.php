@@ -16,11 +16,11 @@ return new class extends Migration
         Schema::create('events', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->longText('description');
-            $table->text('address');
             $table->date('date');
             $table->time('timings');
+            $table->text('address');
             $table->integer('fees');
+            $table->longText('description');
             $table->text('note');
             $table->timestamps();
         });

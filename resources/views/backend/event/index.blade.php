@@ -30,7 +30,6 @@
                             <th>Timings</th>
                             <th>Fees</th>
                             <th>Note</th>
-                            <th>Role Names</th>
                             <th>Action</th>
                         </tr>
                     </thead>
@@ -78,7 +77,6 @@
                             <th>Timings</th>
                             <th>Fees</th>
                             <th>Note</th>
-                            <th>Role Names</th>
                             <th>Action</th>
                         </tr>
                     </tfoot>
