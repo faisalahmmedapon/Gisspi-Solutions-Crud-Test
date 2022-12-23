@@ -18,10 +18,10 @@ return new class extends Migration
             $table->string('name');
             $table->date('date');
             $table->time('timings');
-            $table->text('address');
+            $table->longText('address');
             $table->integer('fees');
             $table->longText('description');
-            $table->text('note');
+            $table->longText('note');
             $table->timestamps();
         });
     }

@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $events = Event::all();
-    return view('welcome',compact('events'));
+    return view('event',compact('events'));
 });
 
 Route::get('/dashboard', function () {

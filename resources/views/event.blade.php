@@ -9,6 +9,13 @@
     <title> Matrimony </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+        <style>
+            body{
+                font-family: 'Sriracha', cursive;
+            }
+        </style>
 </head>
 
 <body>
@@ -50,15 +57,15 @@
                 <div class="col-md-6 py-2">
                     <div class="card shadow p-3">
                         <div>
-                            <h5 class=""> <strong> Name </strong> {{ $event->name }} </h5>
-                            <h5 class=""> <strong> Fees: </strong> {{ $event->fees }} </h5>
-                            <h5 class=""> <strong> Date:</strong>  {{ $event->date }} </h5>
-                            <h5 class=""> <strong> Timings:</strong>  {{ $event->timings }} </h5>
-                            <h5 class=""> <strong> Address: </strong> {{ $event->address }} </h5>
+                            <h5 class=""> <strong> Name: </strong> <i>{{ $event->name }}</i> </h5>
+                            <h5 class=""> <strong> Fees: </strong> <i> {{ $event->fees }}</i> </h5>
+                            <h5 class=""> <strong> Date:</strong>  <i> {{ $event->date }}</i> </h5>
+                            <h5 class=""> <strong> Timings:</strong>  <i> {{ $event->timings }}</i> </h5>
+                            <h5 class=""> <strong> Address: </strong> <i> {{ $event->address }}</i> </h5>
                         </div>
                         <div>
-                            <h5 class=""> <strong> Description: </strong> {{ $event->description }} </h5>
-                            <h5 class=""> <strong> Note: </strong> {{ $event->note }} </h5>
+                            <h5 class=""> <strong> Description: </strong> <i> {{ $event->description }}</i> </h5>
+                            <h5 class=""> <strong> Note: </strong> <i> {{ $event->note }}</i> </h5>
                         </div>
 
                     </div>
